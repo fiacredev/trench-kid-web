@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+nav{
+    box-shadow: 0px 10px 30px rgba(135,98,98,0.13);
+    position: fixed;
+    width: 99%;
+    top: 0;
+    /* border: 1px solid red; */
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2000;
+    background-color: #fff;
+}
+nav a{
+    padding: 9px 25px;
+    /* background-color: red; */
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    text-transform: capitalize;
+    padding: 15px;
+    align-items: center;
+}
+nav a:hover{
+    background: lightgrey;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: url(./img/back2.png);
+    z-index: 1000;
+}
+.home h1{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.about{
+    display: flex;
+    column-gap: 100px;
+    /* border: 2px solid red; */
+    width: 83%;
+    margin-left:110px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+}
+.about .about-image img{
+   width: 500px;
+}
+.about .about-text p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.about .about-text h3{
+text-align: center;
+font-size: 23px;
+margin-bottom: 13px;
+}
+
+.menu{
+    display: flex;
+    column-gap: 100px;
+    /* border: 2px solid red; */
+    width: 83%;
+    margin-left:110px;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+.menu .menu-text h1{
+    margin-bottom:27px;
+    text-align: center;
+}
+.menu .menu-text h2{
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.contact h1{
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.contact h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contact p{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.contact form input{
+    display: block;
+    width: 90%;
+    padding: 17px;
+    margin-bottom: 10px;
+}
+
+.menu .menu-text p{
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.menu .menu-image img{
+    width: 500px;
+}
+.contact{
+    /* border: 2px solid red; */
+    width: 83%;
+    margin-left:110px;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+.contact button{
+    width: 150px;
+    height: 60px;
+    border: none;
+    color: #333;
+    font-size: 20px;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-left: 110px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
